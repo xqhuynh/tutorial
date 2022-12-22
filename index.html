@@ -14,5 +14,18 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. In quidem eius ad
       voluptatem labore repellat mollitia et dicta, temporibus culpa.
     </p>
+    <button class="btn">Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn">Click me</button>
+    <script>
+      document.querySelectorAll(".btn").forEach((item) => {
+        item.addEventListener("click", () => {
+          alert("this is awesome");
+        });
+      });
+    </script>
   </body>
 </html>
