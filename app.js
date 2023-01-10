@@ -53,10 +53,27 @@ console.log(fruits);
 // placeholders, local vars
 // argument - when invoke/call/run
 // use vars/values, multiple params, undefined
-function hello(person) {
-  console.log(`Hello there ${person}`);
+function hello(person, age) {
+  console.log(`Hello there ${person}. Happy ${age}th birthday.`);
 }
 
-hello('Bob');
-hello('Anna');
-hello('Susy');
+hello('Bob', 29);
+hello('Anna', 18);
+hello('Susy', 10);
+hello('Nina', 25);
+
+// return
+const wallHeight = 80;
+
+function calculate(value) {
+  //   let newValue = value * 2.54;
+  return value * 2.54;
+}
+
+const width = calculate(100);
+const height = calculate(wallHeight);
+
+const dimensions = [width, height];
+console.log(dimensions);
+
+// expressions
