@@ -98,3 +98,16 @@ const add = function (num1, num2) {
 const thirdValue = add(5, 6);
 const values = [firstValue, secondValue, thirdValue, add(1, 2)];
 console.log(values);
+
+// ---------------------------------------------------------------------------------------
+// OBJECTS - key/value pairs methods
+// dot notation
+
+const person = {
+  name: 'savon',
+  lastName: 'huynh',
+  age: 20,
+  faveSport: 'football',
+};
+
+console.log(person);
