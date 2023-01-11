@@ -1,4 +1,3 @@
-document.write('Hello world');
 console.log('hello there');
 console.log('top of the morning');
 let name = 'Savon';
