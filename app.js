@@ -107,6 +107,18 @@ const person = {
   lastName: 'huynh',
   age: 20,
   faveSport: 'football',
+  eduation: false,
+  married: true,
+  siblings: ['anna', 'susan', 'peter'],
+  greeting: function () {
+    console.log('Hello my name is Savon');
+  },
 };
 
-console.log(person);
+const age = person.age;
+console.log(age);
+person.name = 'David';
+
+console.log(person.name);
+console.log(person.siblings[2]);
+person.greeting();
